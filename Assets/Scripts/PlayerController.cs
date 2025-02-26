@@ -9,14 +9,14 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        LeftAction.Enable();
     }
 
     // Update is called once per frame
     void Update()
     {
         float horizontal = 0.0f;
-        if (Keyboard.current.leftArrowKey.isPressed)
+        if (LeftAction.IsPressed())
         {
             horizontal = -1.0f;
         }
