@@ -3,7 +3,7 @@ guid: ede3e8383dedfa840bae1d86d5b1ecbd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -106,9 +106,211 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: TreeForeground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166.66666
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0b2ceecb236ea408e89f7a367b9e60
+      internalID: 183990203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeForeground_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 166.66666
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd1aa32587f0cd4ab707886326df300
+      internalID: -462755058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeForeground_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 166.66666
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8717cd101035d24ebb0e99254fd1822
+      internalID: 1794633045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeForeground_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83.666664
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4aea0a45ff3bf4998cb59721fe7985
+      internalID: -1053639908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeForeground_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 83.666664
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1338ab3707de747b16556eeab40cf5
+      internalID: -855132753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeForeground_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 83.666664
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccd39a61af509442880050389ee0e9d
+      internalID: 867503912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeForeground_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.6666641
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2e69ddc838a6540a26c08c24b335d7
+      internalID: 170947357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeForeground_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0.6666641
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35919acbf9fe7a94fb6cc7a1fc6dc25f
+      internalID: -542974204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeForeground_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0.6666641
+        width: 83.333336
+        height: 83.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc0e896c26b3844ba89d32f16e89818
+      internalID: -931685094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +321,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TreeForeground_0: 183990203
+      TreeForeground_1: -462755058
+      TreeForeground_2: 1794633045
+      TreeForeground_3: -1053639908
+      TreeForeground_4: -855132753
+      TreeForeground_5: 867503912
+      TreeForeground_6: 170947357
+      TreeForeground_7: -542974204
+      TreeForeground_8: -931685094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
