@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 527630765}
   - component: {fileID: 527630764}
   - component: {fileID: 527630763}
+  - component: {fileID: 527630766}
   m_Layer: 0
   m_Name: CollectibleHealth
   m_TagString: Untagged
@@ -252,6 +253,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &527630766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527630762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8b84ebeaaf5ab418fc0205234940ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1114953941
 GameObject:
   m_ObjectHideFlags: 0
