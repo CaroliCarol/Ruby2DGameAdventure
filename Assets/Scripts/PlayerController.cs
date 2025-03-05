@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     // Heath System Variables
     public int maxHealth = 5;
+    public int health { get { return currentHealth; }}
     int currentHealth = 1;
     
     // Start is called before the first frame update
