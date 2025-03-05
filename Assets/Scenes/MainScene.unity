@@ -3013,7 +3013,12 @@ PrefabInstance:
     - target: {fileID: 9078321890124578035, guid: 1785fc93cec3856449f0d801c1f8a49b,
         type: 3}
       propertyPath: speed
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078321890124578035, guid: 1785fc93cec3856449f0d801c1f8a49b,
+        type: 3}
+      propertyPath: vertical
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
