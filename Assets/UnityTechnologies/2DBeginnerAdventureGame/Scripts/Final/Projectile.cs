@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+namespace Final{
 /// <summary>
 /// Handle the projectile launched by the player to fix the robots.
 /// </summary>
@@ -37,4 +37,5 @@ public class Projectile : MonoBehaviour
         
         Destroy(gameObject);
     }
+}
 }

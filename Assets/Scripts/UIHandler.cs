@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class UIHandleScript : MonoBehaviour
+public class UIHandler  : MonoBehaviour
 {
     private VisualElement m_Healthbar;
     public static UIHandler instance { get; private set; }
 
     private void Awake()
     {
-      instance = this;
+        instance = this;
     }
 
     // Start is called before the first frame update

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+namespace Final{
 public class RubyController : MonoBehaviour
 {
     // ========= MOVEMENT =================
@@ -174,4 +174,5 @@ public class RubyController : MonoBehaviour
     {
         audioSource.PlayOneShot(clip);
     }
+}
 }

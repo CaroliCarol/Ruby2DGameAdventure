@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+namespace Final{
 public class UIHandler : MonoBehaviour
 {
     public static UIHandler instance { get; private set; }
@@ -53,4 +54,8 @@ public class UIHandler : MonoBehaviour
     {
         m_Healthbar.style.width = Length.Percent(100 * percentage);
     }
+
+    
+
+}
 }

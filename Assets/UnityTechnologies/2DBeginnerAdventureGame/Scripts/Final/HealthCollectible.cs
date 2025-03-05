@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿namespace Final{
+
+using UnityEngine;
 
 /// <summary>
 /// Will handle giving health to the character when they enter the trigger.
@@ -15,4 +17,5 @@ public class HealthCollectible : MonoBehaviour
             Destroy(gameObject);
         }
     }
+}
 }

@@ -1,10 +1,12 @@
 ﻿using System;
 using UnityEngine;
 
+namespace Final {
 /// <summary>
 /// This class handle Enemy behaviour. It make them walk back & forth as long as they aren't fixed, and then just idle
 /// without being able to interact with the player anymore once fixed.
 /// </summary>
+/// 
 public class Enemy : MonoBehaviour
 {
 	// ====== ENEMY MOVEMENT ========
@@ -90,4 +92,5 @@ public class Enemy : MonoBehaviour
 		audioSource.PlayOneShot(hitSound);
 		audioSource.PlayOneShot(fixedSound);
 	}
+}
 }
