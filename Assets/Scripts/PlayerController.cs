@@ -5,9 +5,12 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    // Character Movement Variables
     public InputAction MoveAction;
     Rigidbody2D rigidbody2d;
     Vector2 move;
+    public float speed = 3.0f;
+
     // Heath System Variables
     public int maxHealth = 5;
     int currentHealth;
@@ -29,7 +32,7 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
-        Vector2 position = (Vector2)rigidbody2d.position + move * 3.0f * Time.deltaTime;
+        Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
         rigidbody2d.MovePosition(position);
     }
     void ChangeHealth (int amount)
