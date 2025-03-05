@@ -13,15 +13,16 @@ public class PlayerController : MonoBehaviour
 
     // Heath System Variables
     public int maxHealth = 5;
+    int currentHealth;
     public int health { get { return currentHealth; }}
-    int currentHealth = 1;
+    
     
     // Start is called before the first frame update
     void Start()
     {
         MoveAction.Enable();
         rigidbody2d = GetComponent<Rigidbody2D>();
-        //currentHealth = maxHealth;
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
