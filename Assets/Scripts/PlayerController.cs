@@ -58,7 +58,10 @@ public class PlayerController : MonoBehaviour
             isInvincible = false;
             }
         }
-        
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            Launch();
+        }
     }
     void FixedUpdate()
     {
