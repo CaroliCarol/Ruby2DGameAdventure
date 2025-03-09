@@ -28,6 +28,9 @@ public class PlayerController : MonoBehaviour
     // Projectile Variables
     public GameObject projectilePrefab;
 
+    //NPC Interaction Variables
+    public InputAction talkAction;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +38,7 @@ public class PlayerController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
+        talkAction.Enable();
     }
 
     // Update is called once per frame
@@ -61,6 +65,14 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.C))
         {
             Launch();
+        }
+        //if (talkAction.triggered)
+        //{
+        //FindFriend();
+        //}
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+           FindFriend();
         }
     }
     void FixedUpdate()
@@ -89,5 +101,16 @@ public class PlayerController : MonoBehaviour
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(moveDirection, 300);
         animator.SetTrigger("Launch");
+    }
+    void FindFriend()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f,  moveDirection, 1.5f, LayerMask.GetMask("NPC"));
+        if (hit.collider != null)
+        {
+            if (hit.collider != null)
+            {
+                Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
+            }
+        }
     }
 }

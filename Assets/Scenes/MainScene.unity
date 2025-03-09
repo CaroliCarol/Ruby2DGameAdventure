@@ -2844,6 +2844,141 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_Name
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_Interactions
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_ExpectedControlType
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 309ab747-a714-44c2-a982-a3bcd29a820b
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[1].m_Id
+      value: 71e28776-f18f-451b-a09d-53c3ed9c2eff
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[2].m_Id
+      value: 87af2da6-3d41-4258-9774-2f231c4299f9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[3].m_Id
+      value: c10552d7-8bf3-4b21-a91a-d5f3d0509a08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[4].m_Id
+      value: bce373fe-19e4-46da-8ed7-27d0dd5939ac
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/x
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[1].m_Name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[2].m_Name
+      value: down
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[3].m_Name
+      value: left
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[4].m_Name
+      value: right
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Flags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[1].m_Flags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[2].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[3].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[4].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[2].m_Action
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[3].m_Action
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[4].m_Action
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423135645364583462, guid: 76ac1c5156c11d949914e50364e8f1b9,
+        type: 3}
+      propertyPath: talkAction.m_SingletonActionBindings.Array.data[0].m_Interactions
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
