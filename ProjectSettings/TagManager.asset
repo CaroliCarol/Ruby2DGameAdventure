@@ -34,9 +34,9 @@ TagManager:
   - 
   - 
   - 
-  - 
   - NPC
   - Camera
+  - Confiner
   m_SortingLayers:
   - name: Background
     uniqueID: 2766579207

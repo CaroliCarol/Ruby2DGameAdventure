@@ -288,7 +288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 984364439}
   - component: {fileID: 984364438}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: CameraConfiner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5594,6 +5594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 2993130122799171563, guid: ad6ecd6f8a51fcd4fb42c98e7d3e5f23,
+        type: 3}
+      propertyPath: m_Layer
+      value: 29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
