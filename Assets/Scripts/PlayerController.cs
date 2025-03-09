@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
 
     //NPC Interaction Variables
     public InputAction talkAction;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -109,7 +110,8 @@ public class PlayerController : MonoBehaviour
         {
             if (hit.collider != null)
             {
-                Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
+                NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
+                UIHandler.instance.DisplayDialogue();
             }
         }
     }
