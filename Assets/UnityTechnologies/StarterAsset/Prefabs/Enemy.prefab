@@ -177,6 +177,7 @@ MonoBehaviour:
   speed: 0
   vertical: 0
   changeTime: 3
+  smokeEffect: {fileID: 6356774672069346105}
 --- !u!95 &5779544066363342769
 Animator:
   serializedVersion: 5
@@ -302,6 +303,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2352898962345038481}
     m_Modifications:
+    - target: {fileID: 1877171804367676310, guid: 826a77048cecd8e46945c4c8f32385fb,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3081326853604695622, guid: 826a77048cecd8e46945c4c8f32385fb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -362,6 +368,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 826a77048cecd8e46945c4c8f32385fb, type: 3}
+--- !u!198 &6356774672069346105 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1877171804367676310, guid: 826a77048cecd8e46945c4c8f32385fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 4772339154175533231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7564309456833019625 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3081326853604695622, guid: 826a77048cecd8e46945c4c8f32385fb,
