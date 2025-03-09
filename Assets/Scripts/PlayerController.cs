@@ -28,9 +28,11 @@ public class PlayerController : MonoBehaviour
     // Projectile Variables
     public GameObject projectilePrefab;
 
-    //NPC Interaction Variables
+    // NPC Interaction Variables
     public InputAction talkAction;
     
+    // Audio Variables
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +42,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         talkAction.Enable();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -114,5 +117,9 @@ public class PlayerController : MonoBehaviour
                 UIHandler.instance.DisplayDialogue();
             }
         }
+    }
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
